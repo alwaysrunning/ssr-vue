@@ -8,7 +8,7 @@ yarn.lock
 *.iml
 /public/*.css
 package-lock.json
-.env
+// .env
 .env.yml
 server.key
 server.csr
