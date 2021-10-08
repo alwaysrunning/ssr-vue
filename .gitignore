@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+yarn.lock
+.idea
+*.iml
+/public/*.css
+package-lock.json
+.env
+.env.yml
+server.key
+server.csr
+server.crt
+.vscode/
