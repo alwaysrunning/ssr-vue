@@ -1,0 +1,20 @@
+{
+  "apps": {
+    "name": "HPA dev",
+    "script": "server.js",
+    "instances": "1",
+    "exec_mode": "cluster",
+    "env": {
+      "NODE_ENV": "production",
+      "SECRET_ENV": "dev"
+    },
+    "env_stg": {
+      "NODE_ENV": "production",
+      "SECRET_ENV": "stg"
+    },
+    "env_production": {
+      "NODE_ENV": "production",
+      "SECRET_ENV": "prd"
+    }
+  }
+}

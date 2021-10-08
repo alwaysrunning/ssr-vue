@@ -1,0 +1,29 @@
+.broaden(@rules) {
+  @media screen and (min-width: @screen-xl) {
+    @rules();
+  }
+}
+
+.wide(@rules) {
+  @media screen and (min-width: @screen-lg) {
+    @rules();
+  }
+}
+
+.desktop(@rules) {
+  @media screen and (min-width: @screen-md) {
+    @rules();
+  }
+}
+
+.tablet(@rules) {
+  @media screen and (min-width: @screen-sm) {
+    @rules();
+  }
+}
+
+.phone(@rules) {
+  @media screen and (max-width: @screen-xs) {
+    @rules();
+  }
+}

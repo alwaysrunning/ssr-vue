@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" server-rendered>
+
+<head>
+  <title>{{ title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="{{ desc }}">
+  <meta name="keywords" content="{{ keyword }}">
+  <meta property="og:title" content="{{ ogTitle }}" />
+  <meta property="og:description" content="{{ ogDesc }}" />
+  <meta property="og:image" content="{{ ogImage }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta content="telephone=no" name="format-detection">
+  <meta content="email=no" name="format-detection" />
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta name="theme-color" content="#282866">
+  <link rel="shortcut icon" sizes="48x48" href="https://websiteportal.s3.amazonaws.com/rpimg/icons/favicon.ico">
+  <link href="/public/assets/iconfont/iconfont.css?20210903" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+  <script src="/public/assets/gl.min.js?z4sdf4" defer></script>
+  <script src="/public/assets/echarts.min.js" defer async></script>
+
+  <!-- Start of global snippet: Please do not remove -->
+  <!-- Global site tag (gtag.js) - Google Marketing Platform -->
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_TARGETING_COOKIES }}" async src="https://www.googletagmanager.com/gtag/js?id=DC-{{ process.env.APP__GOOGLE_FLOODLIGHT_CONFIG_ID }}">
+  </script>
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_TARGETING_COOKIES }}" >
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'DC-{{ process.env.APP__GOOGLE_FLOODLIGHT_CONFIG_ID }}');
+    gtag('config', 'UA-{{ process.env.APP__GOOGLE_GA_MEASUREMENT_ID }}');
+
+  </script>
+  <!-- End of global snippet: Please do not remove -->
+  <!-- Google Tag Manager -->
+
+  <script>
+      (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+              'gtm.start':
+
+                  new Date().getTime(),
+              event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+
+              j = d.createElement(s),
+              dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src =
+
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+
+      })(window, document, 'script', 'dataLayer', 'GTM-T2CSRT8');
+
+  </script>
+
+  <!-- End Google Tag Manager -->
+
+  <!-- End Facebook Pixel Code -->
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_FUNCTIONAL_COOKIES }}">
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1486111551509627');
+    fbq('track', 'PageView');
+
+  </script>
+  <noscript>
+    <img height="1" width="1" alt="" src="https://www.facebook.com/tr?id=1486111551509627&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+  <!--vue-ssr-outlet-->
+
+  <!-- Start Alexa Certify Javascript -->
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_FUNCTIONAL_COOKIES }}">
+    _atrk_opts = {
+      atrk_acct: "crubp1IW1d106C",
+      domain: "homepartners.com",
+      dynamic: true
+    };
+    (function () {
+      var as = document.createElement('script');
+      as.type = 'text/javascript';
+      as.async = true;
+      as.src = "https://certify-js.alexametrics.com/atrk.js";
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(as, s);
+    })();
+
+  </script>
+  <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=crubp1IW1d106C" style="display:none" height="1"
+      width="1" alt="" /></noscript>
+  <!-- End Alexa Certify Javascript -->
+
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_FUNCTIONAL_COOKIES }}">
+    _linkedin_partner_id = "1275692";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+  </script>
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_FUNCTIONAL_COOKIES }}">
+    (function () {
+      var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";
+      b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);
+    })();
+
+  </script>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2CSRT8" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+      src="https://px.ads.linkedin.com/collect/?pid=1275692&fmt=gif" />
+  </noscript>
+
+  <script src="https://www.google.com/recaptcha/api.js?hl=en&onload=vueRecaptchaApiLoaded&render=explicit" async defer>
+  </script>
+  <script type="text/plain" class="{{ APP__OPTANON_CATEGORY_FUNCTIONAL_COOKIES }}">
+    piAId = '880362';
+    piCId = '1113';
+    piHostname = 'pi.pardot.com';
+
+    (function () {
+      function async_load() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+        var c = document.getElementsByTagName('script')[0];
+        c.parentNode.insertBefore(s, c);
+      }
+      if (window.attachEvent) {
+        window.attachEvent('onload', async_load);
+      } else {
+        window.addEventListener('load', async_load, false);
+      }
+    })();
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+// @import '~iview/src/styles/index.less';
+
+
+
+
+// Prefix
+@css-prefix             : ivu-;
+@css-prefix-iconfont    : ivu-icon;
+
+// Color
+// @primary-color          : #3A3AA3;
+// @info-color             : #5151E1;
+// @success-color          : #28CC7A;
+// @link-color             : #3A3AA3;
+// @link-hover-color       : #5151E1;
+
+
+@primary-color          : #005cb9;
+@primary-light-color    : #67b2e8;
+@primary-bright-color   : #5FD2FE;
+@info-color             : #003a5d;
+@success-color          : #3fae2a;
+@warning-color          : #FF8533;
+// @warning-color          : #ffa300;
+@link-color             : @primary-color;
+@link-hover-color       : @info-color;
+@link-active-color      : #034e7b;
+@bg-color-base          : #fafdff;
+
+@error-color            : #FF5347;
+
+// @link-active-color      : #282866;
+@selected-color         : #282866;
+@tooltip-color          : #fff;
+@subsidiary-color       : #9ea7b4;
+@rate-star-color        : #f5a623;
+@sub-info-color         : #F59DD8;
+@darken-primary-color   : #39589b;
+@darken-info-color      : #1da1f2;
+@disabled-color         : #EBEBF0;
+@white-color            : #fff;
+@cancel-color			: #83838F;
+@gray-color				: #acc1cc;
+@yellow-color           : #f2ca36;
+@primary-color-linera   : #6d6dd0;
+@emphasize-color        : #F5D244;
+@primary-sub-color      : #8989F5;
+@black-color            : #000000;
+@blue-color				: #003d5c;
+@cabernet-color			: #562449;
+@forestgreen-color		: #006738;
+@green-color			: #429539;
+@red-color				: #e61e3a;
+@cream-color			: #f2ead3;
+@catalist-logo-color    : #065ABC;
+// Base
+@body-background        : #fff;
+@font-family            : "Montserrat","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+@code-family            : Consolas,Menlo,Courier,monospace;
+@title-color            : #222228;
+@text-color             : #222228;
+@font-size-base         : 14px;
+@font-size-small        : 12px;
+@font-size-large        : 14px;
+@line-height-base       : 1.5;
+@line-height-computed   : floor((@font-size-base * @line-height-base));
+@border-radius-base     : 6px;
+@border-radius-small    : 4px;
+@cursor-disabled        : not-allowed;
+// Add Base
+@text-color-dark        : #222729;
+@text-sub-color         : #5E5E66;
+@text-light-color       : #D3CFE6;
+// Border color
+@border-color-base      : #DCDCE1;  // outside
+@border-color-split     : #EBEBF0;  // inside
+// Space
+@padding-base           : 6px;
+//Heading
+@font-size-h1           : 24px;
+@font-size-h2           : 20px;
+@font-size-h3           : 16px;
+@font-size-h4           : 14px;
+@font-size-h5           : 12px;
+
+// Background color
+@background-color-base        : #F5F5FF;  // base
+@background-color-select-hover: @input-disabled-bg;
+@tooltip-bg                   : rgba(70, 76, 91, .9);
+@head-bg                      : #f9fafc;
+@table-thead-bg               : #FBFAFF;
+@table-td-stripe-bg           : #FBFAFF;
+@table-td-hover-bg            : #FBFAFF;
+@table-td-highlight-bg        : #FBFAFF;
+@menu-dark-active-bg          : #313540;
+@date-picker-cell-hover-bg    : #e1f0fe;
+
+// Shadow
+@shadow-color           : rgba(242, 240, 250, 1);
+@shadow-base            : @shadow-down;
+@shadow-card            : 0 1px 1px 0 rgba(242, 240, 250, 1);
+@shadow-up              : 0 -1px 6px @shadow-color;
+@shadow-down            : 0 2px 6px 0 @shadow-color;
+@shadow-left            : -1px 0 6px @shadow-color;
+@shadow-right           : 1px 0 6px @shadow-color;
+
+// Button
+@btn-font-weight        : 500;
+@btn-padding-base       : 8px 15px;
+@btn-padding-large      : 12px 25px 12px 25px;
+@btn-padding-small      : 4px 10px;
+@btn-font-size          : 12px;
+@btn-font-size-large    : 13px;
+@btn-border-radius      : 4px;
+@btn-border-radius-small: 4px;
+@btn-group-border       : shade(@primary-color, 5%);
+
+// @btn-disable-color      : #EBEBF0;
+// @btn-disable-bg         : @background-color-base;
+@btn-disable-color      : #abc1cc;
+@btn-disable-bg         : @border-color-split;
+@btn-disable-border     : @border-color-base;
+
+@btn-default-color      : @title-color;
+@btn-default-bg         : @body-background;
+@btn-default-border     : @border-color-base;
+
+@btn-primary-color      : #fff;
+@btn-primary-bg         : @primary-color;
+
+@btn-ghost-color        : @text-color;
+@btn-ghost-bg           : transparent;
+@btn-ghost-border       : @border-color-base;
+
+@btn-circle-size        : 32px;
+@btn-circle-size-large  : 36px;
+@btn-circle-size-small  : 24px;
+
+// Layout and Grid
+@grid-columns           : 24;
+@grid-gutter-width      : 0;
+
+// Legend
+@legend-color           : #999;
+
+// Input
+@input-height-base           : 32px;
+@input-height-large          : 36px;
+@input-height-small          : 24px;
+
+@input-padding-horizontal    : 7px;
+@input-padding-vertical-base : 4px;
+@input-padding-vertical-small: 1px;
+@input-padding-vertical-large: 6px;
+
+@input-placeholder-color     : @btn-disable-color;
+@input-color                 : @text-color;
+@input-border-color          : @border-color-base;
+@input-bg                    : #fff;
+
+@input-hover-border-color    : @primary-color;
+@input-focus-border-color    : @primary-color;
+@input-disabled-bg           : #FBFAFF;
+
+// Tag
+@tag-font-size          : 12px;
+
+// Media queries breakpoints
+// Extra small screen / phone
+@screen-xs              : 767px;
+@screen-xs-min          : @screen-xs;
+@screen-xs-max          : (@screen-xs-min - 1);
+
+// Small screen / tablet
+@screen-sm              : 768px;
+@screen-sm-min          : @screen-sm;
+@screen-sm-max          : (@screen-sm-min - 1);
+
+// Medium screen / desktop
+@screen-md              : 1024px;
+@screen-md-min          : @screen-md;
+@screen-md-max          : (@screen-md-min - 1);
+
+// Large screen / wide
+@screen-lg              : 1600px;
+@screen-lg-min          : @screen-lg;
+@screen-lg-max          : (@screen-lg-min - 1);
+
+// More Large screen / broaden
+@screen-xl              : 2100px;
+@screen-xl-min          : @screen-xl;
+@screen-xl-max          : (@screen-xl-min - 1);
+
+// Z-index
+@zindex-spin            : 8;
+@zindex-affix           : 10;
+@zindex-back-top        : 10;
+@zindex-select          : 900;
+@zindex-modal           : 1000;
+@zindex-message         : 1010;
+@zindex-notification    : 1010;
+@zindex-tooltip         : 1060;
+@zindex-loading-bar     : 2000;
+
+// Animation
+@animation-time         : .3s;
+@transition-time        : .2s;
+@ease-in-out            : ease-in-out;
+
+// Slider
+@slider-color              : tint(@primary-color, 20%);
+@slider-height             : 4px;
+@slider-margin             : 16px 0;
+@slider-button-wrap-size   : 18px;
+@slider-button-wrap-offset : -4px;
+@slider-disabled-color     : #ccc;
+
+
