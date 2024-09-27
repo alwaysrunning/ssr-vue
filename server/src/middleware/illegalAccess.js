@@ -1,12 +1,14 @@
 
 const limitTimes = (req, res, next) => {
-    if (!req.session.visitCount) {
-      req.session.visitCount = 1;
-    } else {
-      req.session.visitCount++;
-    }
-    console.log(req.session.visitCount)
-    next();
+  if (!req.session) {
+    req.session = {}
+  }
+  if (!req.session.visitCount) {
+    req.session.visitCount = 1;
+  } else {
+    req.session.visitCount++;
+  }
+  next();
 };
   
 const getIp = req => {
