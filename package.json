@@ -1,9 +1,12 @@
 {
-  "name": "vue-ssr",
-  "version": "1.0.0",
-  "description": "",
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "author": {
+    "name": "andy",
+    "email": "178224406@qq.com"
+  },
+  "description": "{{projectDescription}}",
   "main": "index.js",
-  "author": "",
   "license": "ISC",
   "scripts": {
     "dev": "bnr dev",
